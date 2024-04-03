@@ -1,0 +1,166 @@
+body {
+  font-family: Avenir Next, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 40px;
+  margin: 0 auto;
+  height: inherit;
+  min-height: inherit;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+/* --------------- subheader --------------- */
+
+.header-subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  height: 20px;
+}
+
+.subheader-left a {
+  padding: 0 8px;
+  
+}
+
+/* --------------- navBar --------------- */
+
+.navBar {
+  font-size: 12px;
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.navBar ul li {
+  list-style: none;
+}
+
+.navBar ul li a {
+  color: #565656;
+  text-decoration: none;
+}
+
+/* --------------- section --------------- */
+section {
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+section span {
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
+
+.section-span-first {
+  padding-right: 5px;
+}
+
+.section-span-second {
+  color: #e9e5e5;
+}
+
+/* --------------- first main --------------- */
+
+.bg {
+  height: 450px;
+  align-content: center;
+  background-size: cover;
+  background-position: top center;
+}
+
+.bg-men {
+  background-image: url(./img/bg/portada-men-1.webp);
+}
+
+.bg-women {
+  background-image: url(./img/bg/portada-women.jpg);
+}
+
+.bg-accessorioes {
+  background-image: url(./img/bg/portada-accessories.jpg);
+}
+
+.h2-bg, .a-bg {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.h2-bg {
+  color: white;
+  font-size: 40px;
+}
+
+.a-bg {
+  border-radius: 25px;
+  background-color: white;
+  display: inline-block;
+  padding: 11px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+  color: black;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+/* 
+.cart-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}
+
+#cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-list li {
+  margin-bottom: 10px;
+}
+
+#checkout-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+} */

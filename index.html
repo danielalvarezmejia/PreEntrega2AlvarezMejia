@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alphafit: Tienda de ropa deportiva</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-subheader">
+        <div class="subheader subheader-left">
+          <a href="https://www.facebook.com/"><img class="icon facebook" src="./img/iconos/Facebook.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/"><img class="icon instagram" src="./img/iconos/Instagram.png" alt="Instagram"></a>
+        </div>
+  
+        <div class="subheader subheader-logo">
+          <a href="./index.html"><img src="./img/logo/Alphafit-Isologo.webp" alt="Logo Alphafit"></a>
+        </div>
+  
+        <div class="subheader subheader-right">
+          <a href="">
+            <span>
+              <img class="icon carrito" src="./img/iconos/Bolsa.png" alt="Carrito de compra">
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <nav class="navBar">
+        <ul>
+          <li><a href="#">HOMBRES »</a></li>
+          <li><a href="#">MUJERES »</a></li>
+          <li><a href="#">ACCESORIOS DEPORTIVOS »</a></li>
+          <li><a href="#">MÁS INFORMACIÓN »</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <span class="section-span-first">ENVÍO GRATIS</span>
+    <span class="section-span-second">a partir de dos productos</span>
+  </section>
+
+  <main>
+    <div class="bg bg-men">
+      <h2 class="h2-bg h2-men">HOMBRES</h2>
+      <a class="a-bg" href="">VER MÁS »</a>
+    </div>
+
+    <div class="bg bg-women">
+      <h2 class="h2-bg h2-men">MUJERES</h2>
+      <a class="a-bg" href="">VER MÁS »</a>
+    </div>
+
+    <div class="bg bg-accessories">
+      <h2 class="h2-bg h2-men">ACCESORIOS</h2>
+      <a class="a-bg" href="">VER MÁS »</a>
+    </div>
+  </main>
+
+  <div class="products">
+    <!-- Aquí van los productos -->
+  </div>
+  <div class="cart-container">
+    <h2>Carrito de Compra</h2>
+    <ul id="cart-list">
+        
+    </ul>
+    <div id="cart-total">
+        Total: $<span id="total-amount">0.00</span>
+    </div>
+    <button id="checkout-btn">Pagar</button>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
